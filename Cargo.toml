@@ -1,0 +1,15 @@
+[package]
+name = "dpc-todo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.68"
+clap = { version = "4.0.32", features = ["env", "derive"] }
+rand = "0.8.5"
