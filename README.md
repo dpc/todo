@@ -4,7 +4,7 @@ dpc's "productivity" system
 
 ## Introduction
 
-I'm not much of a TODO" list person. I think managing these is not worth it - takes too much time, where my email is already a natural TODO list. However, I do somethimes want to remind myself about something I need to do. Usually when I'm in the middle of writting code, etc.
+I'm not much of a TODO list person. I think managing these is not worth it - takes too much time, where my email is already a natural TODO list. However, I do somethimes want to remind myself about something I need to do. Usually when I'm in the middle of writting code, etc.
 
 So my productivity system is simple and built around that.
 
