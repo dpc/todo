@@ -30,9 +30,7 @@ where
         rand::distributions::Alphanumeric.sample_string(&mut rand::thread_rng(), 16)
     ));
     let mut file = fs::File::create(&tmp_path)?;
-    if let Err(e) = f(&mut file) {
-        return Err(e);
-    }
+    f(&mut file)?;
     file.flush()?;
     file.sync_data()?;
     drop(file);
